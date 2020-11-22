@@ -5,3 +5,6 @@ db:
 
 clean:
 	$(RM) db
+
+test:
+	bundle exec rspec
